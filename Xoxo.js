@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 const logger = require('console-log-level')({ level: 'info' });
-const token = '7279695237:AAFbgOrj3orOD4oVJ6mZgw4juvK0dkzE23U';  // Replace with your actual bot token
+const token = '7279695237:AAFBs3AhP-oxOR4j0Cetg1fFapEki05tw_Q';  // Replace with your actual bot token
 const API_URL = 'https://api.51gameapi.com/api/webapi/GetEmerdList';
 
 const bot = new TelegramBot(token, { polling: true });
